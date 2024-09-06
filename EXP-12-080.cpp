@@ -84,7 +84,50 @@ int main()
 Copy Constructor) Value of pi is: 3
 */
 
-//Program 4 (Destructor)
+//Program 4 (Find area of rectangle using classes.)
+#include<iostream>
+using namespace std;
+class MyClass{
+    private:
+    int l;
+    int b;
+
+
+
+    public:
+int s,w;
+void getinput()
+         { 
+            cout<<"Enter length and breadth"<<endl;
+            cin>>s>>w;
+         }
+
+         void display()
+         { int a;
+         l=s;
+         b=w;
+    
+            a = l*b;
+         cout<<"Area of rectangle is: "<< a<< endl;
+         }
+};
+int main(){
+    
+    MyClass obj1;
+    obj1.getinput();
+    obj1.display();
+
+    return 0;
+}
+
+//Output
+/*
+Enter length and breadth
+2 5
+Area of rectangle is: 10
+*/
+
+//Program 5 (Destructor)
 #include<iostream>
 using namespace std;
 class MyClass
