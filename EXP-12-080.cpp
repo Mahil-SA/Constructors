@@ -85,4 +85,23 @@ Copy Constructor) Value of pi is: 3
 */
 
 //Program 4 (Destructor)
-
+#include<iostream>
+using namespace std;
+class MyClass
+{
+    public:
+    ~MyClass()
+    {
+        cout<<"Destructor called!"<<endl;
+    }
+    MyClass()
+    {
+        cout<<"Constructor called!"<<endl;
+    }
+};
+int main()
+{
+    MyClass obj;
+    
+    return 0;
+}
