@@ -77,7 +77,43 @@ int main()
     return 0;
 }
 
-//Program 4 (Destructor)
+//Program 4 (Find area of rectangle using classes.)
+#include<iostream>
+using namespace std;
+class MyClass{
+    private:
+    int l;
+    int b;
+
+
+
+    public:
+int s,w;
+void getinput()
+         { 
+            cout<<"Enter length and breadth"<<endl;
+            cin>>s>>w;
+         }
+
+         void display()
+         { int a;
+         l=s;
+         b=w;
+    
+            a = l*b;
+         cout<<"Area of rectangle is: "<< a<< endl;
+         }
+};
+int main(){
+    
+    MyClass obj1;
+    obj1.getinput();
+    obj1.display();
+
+    return 0;
+}
+
+//Program 5 (Destructor)
 #include<iostream>
 using namespace std;
 class MyClass
@@ -114,3 +150,7 @@ In C++ we have learnt about constructors and their types.
 ![image](https://github.com/user-attachments/assets/b73e6dc9-7fdd-4207-8867-4b3ce093ef26)
 
 ### Program 4
+![image](https://github.com/user-attachments/assets/2fc54ce0-9a3c-4a08-9892-71f7093dab57)
+
+### Program 5
+![image](https://github.com/user-attachments/assets/34b1abc9-b973-4fcb-a489-8c32d91e031b)
