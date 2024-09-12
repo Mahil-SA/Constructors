@@ -1,4 +1,4 @@
-//Experiment 11 - To study and implement constructors.
+//Experiment 12 - To study and implement constructors.
 //Name - Mahil Anthony
 //PRN -  23070123080
 //Batch -  ENTC B1
